@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Uesr -I .\Software -I .\Midware -I .\Periphl -I .\Hardware -I .\Common -I .\Libs
+-I.\RTE\_Target_1
+-IC:\Users\lhjol\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER
+-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d --feedback ".\Objects\Car_REGV.fed" "Libs\stm32f10x_dac.c"
