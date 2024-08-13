@@ -475,6 +475,16 @@
               <FileType>5</FileType>
               <FilePath>.\Periphl\TIM.h</FilePath>
             </File>
+            <File>
+              <FileName>Encoder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Periphl\Encoder.c</FilePath>
+            </File>
+            <File>
+              <FileName>Encoder.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Periphl\Encoder.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
