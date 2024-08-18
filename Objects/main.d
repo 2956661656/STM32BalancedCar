@@ -1,7 +1,7 @@
 .\objects\main.o: Uesr\main.c
 .\objects\main.o: .\Start\stm32f10x.h
 .\objects\main.o: .\Start\core_cm3.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: A:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: .\Start\system_stm32f10x.h
 .\objects\main.o: .\Uesr\stm32f10x_conf.h
 .\objects\main.o: .\Libs\stm32f10x_adc.h
@@ -28,3 +28,6 @@
 .\objects\main.o: .\Libs\stm32f10x_usart.h
 .\objects\main.o: .\Libs\stm32f10x_wwdg.h
 .\objects\main.o: .\Libs\misc.h
+.\objects\main.o: .\Hardware\TB6612.h
+.\objects\main.o: .\Periphl\TIM.h
+.\objects\main.o: .\Periphl\Encoder.h

@@ -19,7 +19,7 @@ void Pl_Encoder_Init()
 	
 	//管脚复用
 	GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);			//关闭JTAG,保留SWJ
-	GPIO_PinRemapConfig(GPIO_PartialRemap1_TIM2, ENABLE);				//将PA0:1的TIM2CH1:2引脚重映射到PA15和PB3
+	GPIO_PinRemapConfig(GPIO_PartialRemap1_TIM2, ENABLE);				//将(PA0:1的)TIM2CH1:2引脚重映射到PA15和PB3
 	GPIO_PinRemapConfig(GPIO_PartialRemap_TIM3, ENABLE);				//将PB4:5映射为TIM3的CH1:2
 	
 	//配置时基单元
@@ -54,7 +54,7 @@ void Pl_Encoder_Init()
 	TIM_ICInit(TIM3, &TIM_ICInitType);
 	
 	TIM_EncoderInterfaceConfig(TIM3, TIM_EncoderMode_TI12, TIM_ICPolarity_Rising, TIM_ICPolarity_Rising);
-	//TIM2作为电机A的编码器
+	//TIM3作为电机B的编码器
 	TIM_Cmd(TIM3, ENABLE);
 
 }
@@ -67,6 +67,9 @@ int16_t Pl_Encoder_GetCCR_TIM2()
 }
 int16_t Pl_Encoder_GetCCR_TIM3()
 {
+	if(1 == 1){
+
+	}
 	int16_t value = (int16_t)TIM_GetCounter(TIM3);
 	TIM3->CNT = 0;
 	return value;

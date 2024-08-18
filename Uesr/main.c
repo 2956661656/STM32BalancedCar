@@ -1,6 +1,7 @@
 #include "stm32f10x.h"
 #include "TB6612.h"
 #include "Encoder.h"
+#include "IIC.h"
 
 int main()
 {

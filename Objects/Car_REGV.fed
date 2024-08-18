@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Sun Aug 11 13:20:32 2024
+;#<FEEDBACK># ARM Linker, 5060528: Last Updated: Sun Aug 18 10:02:52 2024
 ;VERSION 0.2
 ;FILE core_cm3.o
 __REV16 <= USED 0
@@ -7,6 +7,9 @@ __get_MSP <= USED 0
 __get_PSP <= USED 0
 __set_MSP <= USED 0
 __set_PSP <= USED 0
+;FILE encoder.o
+Pl_Encoder_GetCCR_TIM2 <= USED 0
+Pl_Encoder_GetCCR_TIM3 <= USED 0
 ;FILE main.o
 ;FILE misc.o
 NVIC_Init <= USED 0
@@ -206,9 +209,7 @@ GPIO_ETH_MediaInterfaceConfig <= USED 0
 GPIO_EXTILineConfig <= USED 0
 GPIO_EventOutputCmd <= USED 0
 GPIO_EventOutputConfig <= USED 0
-GPIO_Init <= USED 0
 GPIO_PinLockConfig <= USED 0
-GPIO_PinRemapConfig <= USED 0
 GPIO_ReadInputData <= USED 0
 GPIO_ReadInputDataBit <= USED 0
 GPIO_ReadOutputData <= USED 0
@@ -273,9 +274,7 @@ PWR_WakeUpPinCmd <= USED 0
 ;FILE stm32f10x_rcc.o
 RCC_ADCCLKConfig <= USED 0
 RCC_AHBPeriphClockCmd <= USED 0
-RCC_APB1PeriphClockCmd <= USED 0
 RCC_APB1PeriphResetCmd <= USED 0
-RCC_APB2PeriphClockCmd <= USED 0
 RCC_APB2PeriphResetCmd <= USED 0
 RCC_AdjustHSICalibrationValue <= USED 0
 RCC_BackupResetCmd <= USED 0
@@ -386,7 +385,6 @@ TIM_ClearOC1Ref <= USED 0
 TIM_ClearOC2Ref <= USED 0
 TIM_ClearOC3Ref <= USED 0
 TIM_ClearOC4Ref <= USED 0
-TIM_Cmd <= USED 0
 TIM_CounterModeConfig <= USED 0
 TIM_CtrlPWMOutputs <= USED 0
 TIM_DMACmd <= USED 0
@@ -395,7 +393,6 @@ TIM_DeInit <= USED 0
 TIM_ETRClockMode1Config <= USED 0
 TIM_ETRClockMode2Config <= USED 0
 TIM_ETRConfig <= USED 0
-TIM_EncoderInterfaceConfig <= USED 0
 TIM_ForcedOC1Config <= USED 0
 TIM_ForcedOC2Config <= USED 0
 TIM_ForcedOC3Config <= USED 0
@@ -409,11 +406,8 @@ TIM_GetCounter <= USED 0
 TIM_GetFlagStatus <= USED 0
 TIM_GetITStatus <= USED 0
 TIM_GetPrescaler <= USED 0
-TIM_ICInit <= USED 0
-TIM_ICStructInit <= USED 0
 TIM_ITConfig <= USED 0
 TIM_ITRxExternalClockConfig <= USED 0
-TIM_InternalClockConfig <= USED 0
 TIM_OC1FastConfig <= USED 0
 TIM_OC1Init <= USED 0
 TIM_OC1NPolarityConfig <= USED 0
@@ -425,15 +419,12 @@ TIM_OC2NPolarityConfig <= USED 0
 TIM_OC2PolarityConfig <= USED 0
 TIM_OC2PreloadConfig <= USED 0
 TIM_OC3FastConfig <= USED 0
-TIM_OC3Init <= USED 0
 TIM_OC3NPolarityConfig <= USED 0
 TIM_OC3PolarityConfig <= USED 0
 TIM_OC3PreloadConfig <= USED 0
 TIM_OC4FastConfig <= USED 0
-TIM_OC4Init <= USED 0
 TIM_OC4PolarityConfig <= USED 0
 TIM_OC4PreloadConfig <= USED 0
-TIM_OCStructInit <= USED 0
 TIM_PWMIConfig <= USED 0
 TIM_PrescalerConfig <= USED 0
 TIM_SelectCCDMA <= USED 0
@@ -452,12 +443,7 @@ TIM_SetCompare2 <= USED 0
 TIM_SetCompare3 <= USED 0
 TIM_SetCompare4 <= USED 0
 TIM_SetCounter <= USED 0
-TIM_SetIC1Prescaler <= USED 0
-TIM_SetIC2Prescaler <= USED 0
-TIM_SetIC3Prescaler <= USED 0
-TIM_SetIC4Prescaler <= USED 0
 TIM_TIxExternalClockConfig <= USED 0
-TIM_TimeBaseInit <= USED 0
 TIM_TimeBaseStructInit <= USED 0
 TIM_UpdateDisableConfig <= USED 0
 TIM_UpdateRequestConfig <= USED 0
@@ -502,5 +488,8 @@ WWDG_SetPrescaler <= USED 0
 WWDG_SetWindowValue <= USED 0
 ;FILE system_stm32f10x.o
 SystemCoreClockUpdate <= USED 0
+;FILE tb6612.o
+Hw_TB6612_SetMotorADir <= USED 0
+Hw_TB6612_SetMotorBDir <= USED 0
+Hw_TB6612_SetPWM <= USED 0
 ;FILE tim.o
-My_TIM_Init <= USED 0

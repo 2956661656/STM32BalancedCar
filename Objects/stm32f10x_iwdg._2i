@@ -1,6 +1,6 @@
---c99 -c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Uesr -I .\Software -I .\Midware -I .\Periphl -I .\Hardware -I .\Common -I .\Libs
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\Uesr -I .\Software -I .\Midware -I .\Periphl -I .\Hardware -I .\Common -I .\Libs
 -I.\RTE\_Target_1
--IC:\Users\lhjol\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
--IC:\Keil_v5\ARM\CMSIS\Include
--D__UVISION_VERSION="530" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER
+-IA:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-IA:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
 -o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d --feedback ".\Objects\Car_REGV.fed" "Libs\stm32f10x_iwdg.c"

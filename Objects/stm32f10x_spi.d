@@ -2,7 +2,7 @@
 .\objects\stm32f10x_spi.o: Libs\stm32f10x_spi.h
 .\objects\stm32f10x_spi.o: .\Start\stm32f10x.h
 .\objects\stm32f10x_spi.o: .\Start\core_cm3.h
-.\objects\stm32f10x_spi.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_spi.o: A:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f10x_spi.o: .\Start\system_stm32f10x.h
 .\objects\stm32f10x_spi.o: .\Uesr\stm32f10x_conf.h
 .\objects\stm32f10x_spi.o: .\Libs\stm32f10x_adc.h

@@ -2,7 +2,7 @@
 .\objects\stm32f10x_tim.o: Libs\stm32f10x_tim.h
 .\objects\stm32f10x_tim.o: .\Start\stm32f10x.h
 .\objects\stm32f10x_tim.o: .\Start\core_cm3.h
-.\objects\stm32f10x_tim.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_tim.o: A:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f10x_tim.o: .\Start\system_stm32f10x.h
 .\objects\stm32f10x_tim.o: .\Uesr\stm32f10x_conf.h
 .\objects\stm32f10x_tim.o: .\Libs\stm32f10x_adc.h

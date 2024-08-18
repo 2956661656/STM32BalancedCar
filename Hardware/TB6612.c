@@ -62,5 +62,5 @@ void Hw_TB6612_SetPWM(int8_t signedRateA, int8_t signedRateB)
 	}else{		//刹车
 		Hw_TB6612_SetMotorBDir(BREAKING);
 	}
-	TIM_SetCompare3(TIM4, signedRateB);
+	TIM_SetCompare3(TIM4, signedRateB);			//设置占空比（输出PWM）
 }

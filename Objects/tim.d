@@ -1,7 +1,8 @@
 .\objects\tim.o: Periphl\TIM.c
+.\objects\tim.o: Periphl\TIM.h
 .\objects\tim.o: .\Start\stm32f10x.h
 .\objects\tim.o: .\Start\core_cm3.h
-.\objects\tim.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tim.o: A:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\tim.o: .\Start\system_stm32f10x.h
 .\objects\tim.o: .\Uesr\stm32f10x_conf.h
 .\objects\tim.o: .\Libs\stm32f10x_adc.h

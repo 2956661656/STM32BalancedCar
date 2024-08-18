@@ -2,7 +2,7 @@
 .\objects\stm32f10x_can.o: Libs\stm32f10x_can.h
 .\objects\stm32f10x_can.o: .\Start\stm32f10x.h
 .\objects\stm32f10x_can.o: .\Start\core_cm3.h
-.\objects\stm32f10x_can.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_can.o: A:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f10x_can.o: .\Start\system_stm32f10x.h
 .\objects\stm32f10x_can.o: .\Uesr\stm32f10x_conf.h
 .\objects\stm32f10x_can.o: .\Libs\stm32f10x_adc.h

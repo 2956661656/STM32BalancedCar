@@ -1,7 +1,9 @@
 .\objects\tb6612.o: Hardware\TB6612.c
+.\objects\tb6612.o: Hardware\TB6612.h
+.\objects\tb6612.o: .\Periphl\TIM.h
 .\objects\tb6612.o: .\Start\stm32f10x.h
 .\objects\tb6612.o: .\Start\core_cm3.h
-.\objects\tb6612.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tb6612.o: A:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\tb6612.o: .\Start\system_stm32f10x.h
 .\objects\tb6612.o: .\Uesr\stm32f10x_conf.h
 .\objects\tb6612.o: .\Libs\stm32f10x_adc.h
