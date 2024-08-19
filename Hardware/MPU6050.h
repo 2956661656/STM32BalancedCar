@@ -41,5 +41,5 @@ void Hw_MPU6050_SendByte(uint8_t RegAddress, uint8_t data);
 void Hw_MPU6050_SendBytes(uint8_t RegAddress, uint8_t *dataAddress, uint32_t size);
 void Hw_MPU6050_ReadBytes(uint8_t RegAddress, uint8_t *dataAddress, uint32_t size);
 void Hw_MPU6050_Init();
-ArgValue Hw_MPU6050_GetData();
+MPU6050_ArgValue Hw_MPU6050_GetData();
 

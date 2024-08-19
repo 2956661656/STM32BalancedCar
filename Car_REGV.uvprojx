@@ -440,6 +440,18 @@
         </Group>
         <Group>
           <GroupName>Software</GroupName>
+          <Files>
+            <File>
+              <FileName>APP_Car.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Software\APP_Car.c</FilePath>
+            </File>
+            <File>
+              <FileName>APP_Car.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Software\APP_Car.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>Midware</GroupName>
