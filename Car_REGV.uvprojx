@@ -514,6 +514,16 @@
               <FileType>5</FileType>
               <FilePath>.\Periphl\IIC.h</FilePath>
             </File>
+            <File>
+              <FileName>ADC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Periphl\ADC.c</FilePath>
+            </File>
+            <File>
+              <FileName>ADC.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Periphl\ADC.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
