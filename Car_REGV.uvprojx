@@ -524,6 +524,16 @@
               <FileType>5</FileType>
               <FilePath>.\Periphl\ADC.h</FilePath>
             </File>
+            <File>
+              <FileName>SPI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Periphl\SPI.c</FilePath>
+            </File>
+            <File>
+              <FileName>SPI.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Periphl\SPI.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
