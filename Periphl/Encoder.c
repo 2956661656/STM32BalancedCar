@@ -34,7 +34,7 @@ void Pl_Encoder_Init()
 	//配置输入捕获
 	TIM_ICInitTypeDef TIM_ICInitType;
 	TIM_ICStructInit(&TIM_ICInitType);
-	TIM_ICInitType.TIM_Channel = TIM_Channel_1;					//CH1
+	TIM_ICInitType.TIM_Channel = TIM_Channel_1;					//CH1 
 	TIM_ICInitType.TIM_ICPolarity = TIM_ICPolarity_Rising;		//电平极性不反转
 	TIM_ICInitType.TIM_ICFilter = 0xF;
 	TIM_ICInit(TIM2, &TIM_ICInitType);
